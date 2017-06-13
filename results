@@ -1,0 +1,175 @@
+Guest Lecture Series
+
+Join Andrew Strickland and learn what accessibility means in cross platform applications. This lecture is scheduled for June 20, 2017 at 5:00 PM.
+Xamarin University
+Classes Lectures  Schedule My Profile Certification Setup  More sara.gowen@ukho.gov.uk 
+Report for Student
+
+Assessment: Certification Exam
+
+For: sara.gowen@ukho.gov.uk
+
+
+We are showing you the questions you missed, so you can study up and come back sharper!
+
+9.
+True or False: When using Shared Projects, you must provide interfaces or abstractions for any platform-specific features used.
+
+
+13.
+To switch to the UI thread in a cross-platform fashion, you can use ____________.
+
+
+19.
+An Android application is a collection of collaborating parts called _______.
+
+
+27.
+In order to compile a Xamarin.Forms XAML file into Intermediate Language (IL), you need to _________.
+
+
+29.
+iOS Launch Screens can be created using .xib or .storyboard designs.
+
+
+30.
+Which of the following raises user interface events in an iOS application?
+
+
+32.
+True or False: An iOS application can have more than one UIWindow associated with them.
+
+
+35.
+When working with the Apple iOS Simulator, which of the following statements is false?
+
+
+36.
+True of False: The iOS file system is case-sensitive.
+
+
+44.
+When designing pages in iOS, you can use Auto Layout with... (Select all that apply)
+
+
+46.
+In Xamarin.Forms, a ResourceDictionary stores Key/Value pairs. They type of the Key is string. What is the type of the Value?
+
+
+52.
+True or False: In Xamarin.Forms, StaticResource lookup starts at the Page level.
+
+
+55.
+True or False: In Xamarin.Forms data binding, the Target property can be any public property.
+
+
+56.
+Which of the following is an advantage of data binding:
+
+
+57.
+In Xamarin.Forms, what three pieces of information are required for a Binding?
+
+
+59.
+True or False: In Xamarin.Forms, the Mode property on every Binding always defaults to OneWay.
+
+
+60.
+In Xamarin.Forms, what happens if the value you are binding to does not exist?
+
+
+80.
+Suppose you are using the MVVM pattern with Xamarin.Forms to build an "instant messaging" app. You record a timestamp for when each message was sent or received in a DateTime object. When you display these dates, you have a UI requirement to display only the month and day if the DateTime is within the current year, but display the full date if it is not. According to best practice guidelines for MVVM, where would you put the code to format the DateTime objects into the correct string for display?
+
+
+83.
+Suppose you are using the MVVM pattern with Xamarin.Forms. You would like to use Commands instead of event handlers. How can you determine if the control you are working with supports the Command pattern?
+
+
+85.
+In the Xamarin Designer for iOS, what constraint types are available?
+
+
+86.
+Which code fragment(s) would launch an AboutActivity in Android (select all that apply):
+
+
+97.
+True of False: By default, HttpClient uses HttpWebRequest under the covers and does not go through the native OS networking stack.
+
+
+98.
+You can build HTTP message handlers to pre/post process HTTP requests by deriving from which .NET class?
+
+
+106.
+A Xamarin.Forms ContentView lets you _____________. (Select all that apply)
+
+
+112.
+In Xamarin.Forms, which of the following influence the rendered width of a View (select all that apply)?
+
+
+118.
+True or False: A Xamarin.Forms vertical StackLayout can apply expansion to its children in the horizontal direction.
+
+
+120.
+In Xamarin.Forms, which statement best describes Elements such as Button and Entry?
+
+
+126.
+In Xamarin.Forms, suppose you are coding a custom Effect on the iOS platform. You will write a class that derives from PlatformEffect and your class will inherit a property named Control. What type is the Control property?
+
+
+129.
+In Xamarin.Forms, suppose you are coding a custom Effect. On each platform you wish to support, you need to declare the Effect identifier. How do you do this?
+
+
+130.
+True or False: The following code will compile if placed in the iOS platform-specific project of a Xamarin.Forms application (assume any needed using statements are available).
+var iOSButton = UIKit.UIButton.FromType(UIButtonType.System);
+var xfView = new Xamarin.Forms.ContentView();
+xfView.Content = iOSButton;
+
+
+131.
+True or False: The following code will compile if placed in the iOS head-project of a Xamarin.Forms application (assume any needed using statements are available).
+var iOSButton = UIKit.UIButton.FromType(UIButtonType.System);
+var xfView = new Xamarin.Forms.ContentView();
+xfView.Content = iOSButton.ToView();
+
+
+136.
+Suppose you are coding custom Xamarin.Forms renderer(s) for your custom Xamarin.Forms View. What is the key operation a renderer must perform?
+
+
+137.
+Suppose you are coding custom Xamarin.Forms renderer(s) for your custom Xamarin.Forms View. Your renderer(s) inherit a property named Control from their base class. How is the value for the Control property assigned?
+
+
+141.
+Which of the following are Xamarin.Forms ListView cell styles? (Select all that apply)
+
+
+145.
+Given the Xamarin.Forms XAML code below, how would the ListView header render at runtime?
+<ListView Header="Hello"> 
+   <ListView.HeaderTemplate>
+      <DataTemplate> 
+         <Entry Text="{Binding .}" />
+      </DataTemplate> 
+   </ListView.HeaderTemplate> 
+</ListView>
+
+
+147.
+True or False: It is possible to change a Xamarin.Forms ListView caching strategy at runtime?
+
+
+148.
+What is a benefit of setting a Xamarin.Forms ListView caching strategy to RecycleElement?
+
+
